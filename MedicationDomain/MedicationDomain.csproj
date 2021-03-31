@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<PackageId>MedicationDomain_VailSummit</PackageId>
+	  <PackageDescription>Object Domain for Dealing with Medications, Prescriptions, Fills, TherapeudicClass, Pharmacy, and more to come</PackageDescription>
+	<Version>1.0.0</Version>
+	<Authors>Bryant Vail</Authors>
+	<Company>VailSummit</Company>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\VailSummit\GlobalClassLibraries\VailSummit.System.Collections.Generic.csproj" />
+  </ItemGroup>
+
+</Project>
